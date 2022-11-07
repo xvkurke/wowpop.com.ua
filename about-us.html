@@ -14,12 +14,14 @@
         <ul>
           <div class="nav-element">
             <li>
-              <a class="nav" href="/">Home</a>
+              <a class="nav en" href="/">Home</a>
+              <a class="nav ua" href="/">Головна</a>
             </li>
           </div>
           <div class="nav-element">
             <li>
-              <a class="nav" href="/products.html">Products</a>
+              <a class="nav en" href="/products.html">Products</a>
+              <a class="nav ua" href="/products.html">Продукти</a>
             </li>
           </div>
           <div class="nav-element">
@@ -28,13 +30,21 @@
             </li>
           </div>
           <div class="nav-element">
-            <li class="active">
-              <a class="nav" href="/about-us.html">About us</a>
+            <li class = "active">
+              <a class="nav en" href="/about-us.html">About us</a>
+              <a class="nav ua" href="/about-us.html">Про нас</a>
             </li>
           </div>
           <div class="nav-element">
             <li>
-              <a class="nav" href="/cooperate.html">Cooperate</a>
+              <a class="nav en" href="/cooperate.html">Cooperate</a>
+              <a class="nav ua" href="/cooperate.html">Співпраця</a>
+            </li>
+          </div>
+          <div class="nav-element">
+            <li>
+              <i class="fi-us" /><a class="nav lang_switch en">En</a>
+              <i class="fi-ua" /><a class="nav lang_switch ua">Ua</a>
             </li>
           </div>
         </ul>
@@ -42,7 +52,8 @@
     </header>
     <div class="content" id="main">
       <div class="about-content">
-        <h1 class="partners-heading">Компанії з якими ми співпрацюємо</h1>
+        <h1 class="partners-heading ua">Компанії з якими ми співпрацюємо</h1>
+        <h1 class="partners-heading en">Companies with which we are cooperate</h1>
         <div class="slider-container">
           <ul class="slider">
             <li class="slider__slide">
@@ -156,17 +167,29 @@
           <div class="history-1">
             <img src="/img/warehouse.png" alt="" width="800" height="500" />
             <div class="desc">
-              <h1 class="title"><span>Мульти</span><span>вітамінний</span> Льодяник Гуппі</h1>
-              <p>
+              <h1 class="title ua"><span>Мульти</span><span>вітамінний</span> Льодяник Гуппі</h1>
+              <h1 class="title en"><span>Multi</span><span>vitamins</span> Lollipop Guppi</h1>
+              <p class = "ua">
                 Сучасний український завод Art Trade виробляє льодяникову
                 карамель з вітаміном починаючи з 2016 року.
               </p>
-              <p>
+              <p class = "en">
+                The modern Ukrainian factory Art Trade produces lollipops
+                caramel with vitamin since 2016.
+              </p>
+              <p class = "ua">
                 Виробничі потужності розташовані в Київській області, а саме в
                 місті Коцюбинське. Наше виробництво сертифіковане відповідно до
                 міжнародних стандартів, таких як НАССР та ISO22000, що засвідчує
                 високу якість та безпечність нашої продукції. Також встановлені
                 нові потужні лінії для випуску карамельної продукції.
+              </p>
+              <p class = "en">
+                Production facilities are located in the Kyiv region, namely in
+                in the city of Kotsyubynske. Our production is certified according to
+                international standards, such as HACCP and ISO22000, which certifies
+                high quality and safety of our products. Also installed
+                new powerful lines for the production of caramel products.
               </p>
             </div>
           </div>
@@ -182,12 +205,19 @@
                 <img src="/img/candy-3.png" alt="" />
               </li>
               <li class="history-2-item history-2-item-text">
-                <a>
+                <a class = "ua">
                   Смаколики ArtTrade виробляють виключно з якісної сировини , а
                   саме: цукру, патоки та шматочків справжніх фруктів
                   українського походження. Кожна цукерка містить додавання
                   натурального барвника, ароматизатора, та комплексу вітамінів,
                   без синтетичних добавок та шкідливих речовин.
+                </a>
+                <a class = "en">
+                  ArtTrade sweets are produced exclusively from high-quality raw materials, and
+                  namely: sugar, molasses and pieces of real fruit
+                  of Ukrainian origin. Each candy contains an addition
+                  natural dye, flavoring, and a complex of vitamins,
+                  without synthetic additives and harmful substances.
                 </a>
               </li>
             </ul>
@@ -200,60 +230,77 @@
           height="480"
         ></iframe>
       </div>
-      <footer class="footer-distributed">
-        <div class="footer-left">
-          <img src="/img/logo_main.png" width="200" />
-
-          <p class="footer-links">
-            <a href="/index.html" class="link-1">Home</a>
-
-            <a href="/products.html">Products</a>
-
-            <a href="/about-us.html">About</a>
-
-            <a href="/faq.html">Faq</a>
-          </p>
-
-          <p class="footer-company-name">Art Trade © 2022</p>
-        </div>
-
-        <div class="footer-center">
-          <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>01133, м. Київ, </span> вул. Мечникова 8, офіс 22.</p>
+      <div class="footer-main">
+        <footer class="footer-distributed"><div class="footer-left">
+            <img src="/img/logo_main.png" width="200" />
+          
+            <p class="footer-links">
+              <a href="/index.html" class="link-1 en">Home</a>
+              <a href="/index.html" class="link-1 ua">Головна</a>
+          
+              <a href="/products.html" class="en">Products</a>
+              <a href="/products.html" class="ua">Продукти</a>
+          
+              <a href="/about-us.html" class="en">About</a>
+              <a href="/about-us.html" class="ua">Про нас</a>
+          
+              <a href="/faq.html" class="en">Faq</a>
+              <a href="/faq.html" class="ua">Допомога</a>
+            </p>
+          
+            <p class="footer-company-name">Art Trade © 2022</p>
           </div>
 
-          <div>
-            <i class="fa fa-phone"></i>
-            <p>+380 50 383 65 65</p>
+          <div class="footer-center">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p class="ua">
+                <span>01133, м. Київ, </span>
+                вул. Мечникова 8, офіс 22.
+              </p>
+              <p class="en">
+                <span>01133, c. Kyiv, </span>
+                St. Mechnikova 8, office 22.
+              </p>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+380 50 383 65 65</p>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+380 93 559 82 79</p>
+            </div>
           </div>
 
-          <div>
-            <i class="fa fa-phone"></i>
-            <p>+380 93 559 82 79</p>
-          </div>
-        </div>
+          <div class="footer-right">
+            <p class="footer-company-about ua">
+              <span>Про нас</span>
+              Ми молода та амбітна команда, яка займається виробництвом
+              льодяникової карамелі із вітамінами із 2016 року.
+            </p>
+            <p class="footer-company-about en">
+              <span>About us</span>
+              We are a young and ambitious manufacturing team lollipop caramel
+              with vitamins since 2016.
+            </p>
 
-        <div class="footer-right">
-          <p class="footer-company-about">
-            <span>About the company</span>
-            Ми молода та амбітна команда, яка займається виробництвом
-            льодяникової карамелі із вітамінами із 2016 року.
-          </p>
-
-          <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+            <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-github"></i></a>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
 
       <div class="loader" id="loader">
         <img class="loader-logo" src="/img/logo_main.png" />
       </div>
     </div>
-    <script src="js/index.js"></script>
+    <script src="js/_index.js"></script>
   </body>
 </html>
