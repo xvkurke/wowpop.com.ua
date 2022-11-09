@@ -1,12 +1,3 @@
-window.onload = function() {
-      var loader = document.getElementById('loader');
-      setTimeout(() => { 
-        loader.classList.add("hidden");
-      }, 1000);
-};
-
-
-
 // SELECTION
 const imgs = document.querySelectorAll(".imgs img");
 const arrowLeft = document.querySelector(".arrow-left");

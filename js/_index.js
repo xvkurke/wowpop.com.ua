@@ -1,7 +1,14 @@
 
+window.onload = function() {
+  var loader = document.getElementById('loader');
+  setTimeout(() => { 
+    loader.classList.add("hidden");
+  }, 1000);
+};
+
 const lang_sw_button = document.querySelectorAll('.lang_switch');
 
-let activeLang = 'ua';
+let activeLang = 'en';
 let langList = ['ua', 'en'];
 
 const langList_0 = document.querySelectorAll('.' + langList[0]);
@@ -27,7 +34,6 @@ function justSwitchLang(elem){
 }
 
 function switch_lang() {
-  lang_sw_button.forEach(elem => justSwitchLang(elem));
   langList_0.forEach(elem => justSwitchLang(elem));
   langList_1.forEach(elem => justSwitchLang(elem));
   langList.forEach(elem => {
